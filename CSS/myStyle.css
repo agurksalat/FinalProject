@@ -3,6 +3,7 @@ body{
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  display: flexbox;
 }
 header{
     height: 100px;
@@ -50,6 +51,7 @@ nav a{
   font-size: 1.5em;
   text-decoration: none;
   text-align: right;
+  padding: 20px;
 }
 
 
@@ -62,10 +64,16 @@ nav a:hover{
     color:black;
 }
 
+.active{
+  background-color: #dbd6d0;
+  box-shadow: 2px 2px 2px 2px rgba(0,0,0,.2);
+}
+
 .main-section{
   margin-top: 100px;
   margin-left: auto;
   background-color: #dbd6d0;
+  min-height: calc(100vh - 100px);
 }
 .main-section-width{
   width: calc(100% - 200px);
@@ -122,8 +130,6 @@ a.flex-item-small-wrapper{
     text-align: center;
 }
 
-.flex-item-big-wrapper img{
-}
 
 .main-pic{
   background-image: url("../Pics/ren.png");
