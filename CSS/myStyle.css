@@ -7,7 +7,7 @@ body{
 header{
     height: 100px;
     top:0;
-    background-color: #F3F3F3;
+    background-color: #98cdbf;
     position: fixed;
     display: flex;
     width: 100%;
@@ -46,7 +46,7 @@ nav li{
   margin: 20px;
 }
 nav a{
-  color: black;
+  color: #2E425C;
   font-size: 1.5em;
   text-decoration: none;
   text-align: right;
@@ -54,18 +54,18 @@ nav a{
 
 
 nav a:hover{
-	border-bottom: thick line #2e4352;
+	border-bottom: thick line #223144;
 	border-style: solid;
 	border-top: none;
 	border-left: none;
 	border-right: none;
-    color:black;
+  color:#223144;
 }
 
 .main-section{
   margin-top: 100px;
   margin-left: auto;
-  background-color: #dbd6d0;
+  background-color: #DFEEF1;
 }
 .main-section-width{
   width: calc(100% - 200px);
@@ -89,7 +89,7 @@ nav a:hover{
 }
 
 .flex-item-small-wrapper{
-  background-color: #E6E6E6;
+  background-color: #a9d6ca;
   height: 90%;
   width: 75%;
   margin: auto;
@@ -106,16 +106,17 @@ a.flex-item-small-wrapper{
 }
 
 .flex-item-medium-wrapper{
-    background-color: #E6E6E6;
+    background-color: #a9d6ca;
     height: 90%;
     width: 75%;
     margin: auto;
     font-size: 1.2em;
     text-align: left;
+    color: #2E425C;
 }
 
 .flex-item-big-wrapper{
-    background-color: #E6E6E6;
+    background-color: #a9d6ca;
     height: calc(100vh - 20px);
     width: 75%;
     margin: auto;
@@ -126,7 +127,7 @@ a.flex-item-small-wrapper{
 }
 
 .main-pic{
-  background-image: url("../Pics/ren.png");
+  /*background-image:*/
   background-position: right;
   background-repeat: no-repeat;
 }
@@ -175,7 +176,7 @@ a.flex-item-small-wrapper{
 
 .app-img{
   text-align: center;
-  height: 60%;
+  height: 55%;
 }
 
 .app-img img{
@@ -188,7 +189,7 @@ a.flex-item-small-wrapper{
 }
 
 footer{
-  background-color: #dbd6d0;
+  background-color: #a9d6ca;
 }
 
 @media only screen and (max-width: 1500px) {
