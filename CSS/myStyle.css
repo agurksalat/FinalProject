@@ -7,14 +7,6 @@ body{
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-<<<<<<< Updated upstream
-  display: flexbox;
-}
-header{
-    height: 100px;
-    top:0;
-    background-color: #F3F3F3;
-=======
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -23,7 +15,6 @@ header{
     height: 6rem;
     top: 0;
     background-color: #98cdbf;
->>>>>>> Stashed changes
     position: fixed;
     display: flex;
     width: 100%;
@@ -52,47 +43,13 @@ nav li{
   padding: 1.25rem;
 }
 nav a{
-<<<<<<< Updated upstream
-  color: black;
-  font-size: 1.5em;
-=======
   color: #2E425C;
   font-size: 1.5rem;
->>>>>>> Stashed changes
   text-decoration: none;
   text-align: right;
-  padding: 20px;
 }
 
 nav a:hover{
-<<<<<<< Updated upstream
-	border-bottom: thick line #2e4352;
-	border-style: solid;
-	border-top: none;
-	border-left: none;
-	border-right: none;
-    color:black;
-}
-
-.active{
-  background-color: #dbd6d0;
-  box-shadow: 2px 2px 2px 2px rgba(0,0,0,.2);
-}
-
-.main-section{
-  margin-top: 100px;
-  margin-left: auto;
-  background-color: #dbd6d0;
-  min-height: calc(100vh - 100px);
-}
-.main-section-width{
-  width: calc(100% - 200px);
-}
-
-.main-section .flex-item{
-  width: 30%;
-  min-width: 900px;
-=======
   border-bottom: solid #223144;
     color:#223144;
 }
@@ -103,7 +60,6 @@ nav a:hover{
   width: 100%;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: #2E425C;
->>>>>>> Stashed changes
 }
 
 
@@ -122,16 +78,8 @@ section {
 
 }
 
-<<<<<<< Updated upstream
-.flex-item-small-wrapper{
-  background-color: #E6E6E6;
-  height: 90%;
-  width: 75%;
-  margin: auto;
-=======
 h1{
   font-size: 3rem;
->>>>>>> Stashed changes
   text-align: center;
 }
 
@@ -146,103 +94,24 @@ section p{
   flex-flow: row wrap;
 }
 
-<<<<<<< Updated upstream
-.flex-item-medium-wrapper{
-    background-color: #E6E6E6;
-    height: 90%;
-    width: 75%;
-    margin: auto;
-    font-size: 1.2em;
-    text-align: left;
-}
-
-.flex-item-big-wrapper{
-    background-color: #E6E6E6;
-    height: calc(100vh - 20px);
-    width: 75%;
-    margin: auto;
-    text-align: center;
-=======
 .app-img img{
   margin-top: 2rem;
   width: 40%;
->>>>>>> Stashed changes
 }
 
 
 .main-pic{
-  background-image: url("../Pics/ren.png");
+  /*background-image:*/
   background-position: right;
   background-repeat: no-repeat;
 }
 
-<<<<<<< Updated upstream
-.main-section .big.flex-item{
-  width: 100%;
-}
-
-.main-title{
-	font-size: 3em;
-	text-align: center;
-	margin-top: 50px;
-	margin-bottom: 20px;
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.text{
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-}
-
-.standard-title{
-	font-size: 3em;
-	text-align: center;
-	margin-top: 50px;
-	margin-bottom: 50px;
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.text p{
-	text-align: left;
-	padding: 0 20px;
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.recycling-img{
-  text-align: center;
-  height: 70%;
-}
-
-.recycling-img img{
-  height: 100%;
-}
-
-.app-img{
-  text-align: center;
-  height: 60%;
-}
-
-.app-img img{
-  height: 100%;
-}
-
-.align-left{
-  text-align: left;
-  text-decoration: none;
-}
-
-footer{
-  background-color: #dbd6d0;
-=======
 
 footer{
   background-color: #a9d6ca;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
->>>>>>> Stashed changes
 }
 
 @media only screen and (max-width: 1000px) {
