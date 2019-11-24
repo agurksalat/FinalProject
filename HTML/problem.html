@@ -15,13 +15,28 @@
     <a href="index.html" class="logo">
       <img src="../Pics/Logo_only.png" alt="logo">
     </a>
-    <nav>
+    <nav class="desktop-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li class="active"><a href="problem.html">Problem</a></li>
+          <li><a href="solution.html">Solution</a></li>
+          <li><a href="international.html">International</a></li>
+          <li><a href="sources.html">Sources</a></li>
+        </ul>
+    </nav>
+    <input type="checkbox" id="menu-input">
+    <label for="menu-input" class="menu">
+      <span class="burger one"></span>
+      <span class="burger two"></span>
+      <span class="burger three"></span>
+    </label>
+    <nav class="mobile-nav">
       <ul>
-      <li><a href="index.html">Home</a></li>
-      <li class="active"><a href="problem.html">Problem</a></li>
-      <li><a href="solution.html">Solution</a></li>
-      <li><a href="international.html">International</a></li>
-      <li><a href="sources.html">Sources</a></li>
+      <a href="index.html"><li>Home</li></a>
+      <a href="problem.html"><li class="active">Problem</li></a>
+      <a href="solution.html"><li>Solution</li></a>
+      <a href="international.html"><li>International</li></a>
+      <a href="sources.html"><li>Sources</li></a>
       </ul>
     </nav>
   </header>
